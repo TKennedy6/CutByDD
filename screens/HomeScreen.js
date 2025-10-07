@@ -12,7 +12,6 @@ const HomeScreen = () => {
       <Card>
         <Card.Title>Cuts by DD</Card.Title>
       </Card>
-    <Text>HomeScreen</Text>
     </View>
   )
 }
