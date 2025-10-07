@@ -1,6 +1,6 @@
 import HomeScreen from "./screens/HomeScreen";
 import React from "react";
-import { StyleSheet, View} from "react-native";
+import { Text, StyleSheet, View} from "react-native";
 import Biography from "./screens/Biography";
 import ContactInfo from "./screens/ContactInfo";
 import Location from "./screens/Location";
@@ -12,6 +12,7 @@ function App() {
     <SafeAreaView style={styles.container}>
     <View>
     <HomeScreen/>
+    <Text>CUT BY DD</Text>
     <Biography />
     <Location />
     <ContactInfo />
